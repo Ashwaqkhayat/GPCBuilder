@@ -1,0 +1,5 @@
+/* Remove box-shadow and outline when the handle is being dragged */
+.rc-slider-handle-dragging {
+  box-shadow: none !important;
+  outline: none;
+}

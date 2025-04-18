@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Gaming",
+        "desc": "Playing video games",
+        "img": "https://img.gamepix.com/games/super-oliver-world/cover/super-oliver-world.png?w=320&ar=16:10"
+    },
+    {
+        "title": "Work & Productivity",
+        "desc": "Performing office tasks, study, conducting research, and writing papers",
+        "img": "https://www.sperton.com/wp-content/uploads/2023/11/remote-work-p.jpg"
+    },
+    {
+        "title": "Video Editing",
+        "desc": "Video Editing and Content Creation",
+        "img": "https://thedvshow.com/wp-content/uploads/2020/11/charge_video_editing-min.png"
+    },
+    {
+        "title": "Graphic Design & Art",
+        "desc": "Designing logos, illustrations, digital paintings",
+        "img": "https://stability-images-upload.s3.amazonaws.com/v1_txt2img_a3b7ef4c-88b1-4b0a-9706-70c7e496f308.png"
+    },
+    {
+        "title": "Web Browsing & Social Media",
+        "desc": "browsing websites and online communication",
+        "img": "https://www.ncsc.gov.uk/images/iStock-1704413556.jpg"
+    },
+    {
+        "title": "Programming & Development",
+        "desc": "Coding and developing software applications",
+        "img": "https://ecampusontario.pressbooks.pub/app/uploads/sites/2109/2021/11/programming-gb0e197598_1920.jpg"
+    }
+]

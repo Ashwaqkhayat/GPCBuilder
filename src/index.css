@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@layer components {
+    .max-container {
+        /* max-width: 1440px; */
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+@layer utilities {
+    .border-1 {
+        border-width: 1px;
+    }
+    .mask-image-gradient {
+        -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 0) 65%); /* Adjust transparency */
+        mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 0) 65%);
+    },
+    .snap-scroll {
+        scroll-snap-type: y mandatory;
+    },
+    .z-1000 {
+        z-index: 1000,
+    }
+}
+
+.cus_thumb {
+    @apply w-full appearance-none h-[2px] bg-white;
+}
+
+.cus_thumb::-webkit-slider-thumb{
+    @apply appearance-none w-[40px] h-[40px] md:w-[52px] md:h-[52px] bg-Purple rounded-full;
+}
