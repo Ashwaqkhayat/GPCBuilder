@@ -64,7 +64,7 @@ const Build = () => {
 
 
     return (
-        <div className="bg-Dark-Blue w-full sm:min-h-screen md:h-screen md:snap-y md:snap-mandatory md:overflow-y-scroll relative font-lato">
+        <div className="bg-Dark-Blue w-full sm:min-h-screen md:h-screen md:snap-y md:snap-mandatory md:overflow-y-scroll relative font-lato overflow-hidden">
             <Nav />
             <div className="absolute top-[-18rem] left-[6rem] z-0">
                 <img src={ellipse} alt="" />
@@ -274,7 +274,7 @@ const Build = () => {
                     </div>
                 </div>
 
-                <a href="#" onClick={submitSpecs} className="hidden md:block translate-y-[-2rem]">
+                <a href="#" onClick={submitSpecs} className="md:block translate-y-[-2rem]">
                     <div className="bg-Lime p-4 rounded-full hover:scale-105 duration-500 ease-in-out">
                         <p className="px-4 font-normal text-xl">Confirm</p>
                     </div>
