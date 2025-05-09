@@ -36,6 +36,21 @@
     .l-shadow {
         box-shadow: -10px 0 10px rgba(0,0,0,0.3);
     }
+    
+    /* .effect {
+        border-radius: 16px;
+        box-shadow: -0.5px 0 0 0.5px rgba(83, 99, 238, 0.75),
+            -0.5px -0.5px 0 0.5px rgba(83, 99, 238, 0.75),
+            -0.5px -0.5px 0 0.5px rgba(219, 246, 233, 0.75),
+            -0.5px -0.5px 0 0.5px rgba(219, 246, 233, 0.75),
+            -0.5px 0.5px 0 0.5px rgba(194, 247, 80, 0.75),
+            0.5px -0.5px 0 0.5px rgba(194, 247, 80, 0.75),
+            0.5px 0.5px 0 0.5px rgba(194, 247, 80, 0.75),
+            0.5px 0 0 0.5px rgba(194, 247, 80, 0.75);
+        background: -webkit-linear-gradient(left,#707fff,#C2F750);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: #5363EE;
+    } */
 }
 
 .nav-link {

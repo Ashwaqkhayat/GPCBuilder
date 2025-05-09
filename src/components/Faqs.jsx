@@ -27,7 +27,7 @@ const Faqs = () => {
                             <p className="font-lato text-Mint text-base text-left">
                                 {faq}
                             </p>
-                            <a href="/"> <Plus size={25} color="#5363ee" weight="bold" /> </a>
+                            <div> <Plus size={25} color="#5363ee" weight="bold" /> </div>
                         </button>
                         <div className={`overflow-hidden transition-all duration-500 ease-in-out ${activeIndex === index
                             ? "max-h-[500px] opacity-100"

@@ -3,8 +3,11 @@ import { Nav, Radio, RadioCard, RadioGroup, RadioCardGroup, DoubleRange } from "
 import catsData from '../data/categories.json';
 import ellipse from '../assets/images/Ellipse.png';
 import { useState } from "react";
+import { useNavigate } from 'react-router-dom';
 
 const Build = () => {
+    const navigate = useNavigate();
+    
     //Data
     const storageSpaces = ['128 GB', '256 GB', '512 GB', '1 TB', '2 TB', '6 TB', '8 TB'];
 
@@ -60,6 +63,8 @@ const Build = () => {
         console.log("Appearance: ", appearance);
         console.log("Upgradeable: ", upgrade);
         console.log("Budget Range: ", budgetRange[0], " - ", budgetRange[1]);
+
+        navigate('/result');
     }
 
 
@@ -274,7 +279,7 @@ const Build = () => {
                     </div>
                 </div>
 
-                <a href="#" onClick={submitSpecs} className="md:block translate-y-[-2rem]">
+                <a href="" onClick={submitSpecs} className="md:block translate-y-[-2rem]">
                     <div className="bg-Lime p-4 rounded-full hover:scale-105 duration-500 ease-in-out">
                         <p className="px-4 font-normal text-xl">Confirm</p>
                     </div>

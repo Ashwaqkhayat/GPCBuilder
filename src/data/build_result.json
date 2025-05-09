@@ -1,0 +1,42 @@
+[
+    {
+        "type": "Motherboard",
+        "name": "MSI B650 GAMING PLUS WIFI",
+        "rating": "2"
+    },
+    {
+        "type": "Graphic Processing Unit (GPU)",
+        "name": "GIGABYTE GeForce RTX 4070 SUPER WINDFORCE OC 12G",
+        "rating": "2"
+    },
+    {
+        "type": "Power Supply (PSU)",
+        "name": "Thermaltake GF1 850W",
+        "rating": "5"
+    },
+    {
+        "type": "Storage",
+        "name": "Western Digital Blue SN580 M.2 2280 2TB",
+        "rating": "2"
+    },
+    {
+        "type": "Central Processing Unit (CPU)",
+        "name": "Ryzen 7 7800X3D",
+        "rating": "1"
+    },
+    {
+        "type": "Memory",
+        "name": "G.SKILL Trident Z5 Neo RGB",
+        "rating": "3"
+    },
+    {
+        "type": "CPU Cooler",
+        "name": "CORSAIR H100x RGB ELITE",
+        "rating": "2"
+    },
+    {
+        "type": "Case",
+        "name": "Corsair 4000D Airflow Black Steel",
+        "rating": "4"
+    }
+]

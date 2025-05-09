@@ -1,8 +1,10 @@
 import { List, X } from "@phosphor-icons/react";
-import { useRef, useState } from "react";
+import { useRef } from "react";
+import { useNavigate } from 'react-router-dom';
 
 const Nav = () => {
     const navRef = useRef();
+    const navigate = useNavigate();
 
     function showNav() {
         navRef.current.classList.toggle("responsive_nav");
@@ -16,8 +18,8 @@ const Nav = () => {
                     <h1 className="hidden sm:block text-Mint font-lato font-bold text-xl">PC BUILDER</h1>
                 </a>
                 <nav ref={navRef} className="nav-slider">
-                    <a className="hover:text-Purple duration-500 nav-link" href="#">FAQs</a>
-                    <a className="hover:text-Purple duration-300 nav-link" href="#">Sign In</a>
+                    <a className="hover:text-Purple duration-500 nav-link" href="" onClick={() => { navigate('/'); }}>FAQs</a>
+                    <a className="hover:text-Purple duration-300 nav-link" href="">Sign In</a>
                     <X
                         className="cursor-pointer nav-btn nav-close-btn"
                         size={28}
