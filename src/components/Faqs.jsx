@@ -13,7 +13,7 @@ const Faqs = () => {
     };
 
     return (
-        <div className="max-container flex flex-col gap-10 justify-center items-start px-20 mt-20">
+        <div className="max-container flex flex-col gap-10 justify-center items-start px-20 mt-20 relative z-50">
             <h1 className="font-lato text-[32px] text-Mint font-bold leading-10">
                 Frequently asked <br />questions.
             </h1>
